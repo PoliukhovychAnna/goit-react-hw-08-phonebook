@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-top: 160px;
 `;
 
-export const PageTitle = styled.p`
+export const PageTitle = styled.h1`
   width: 900px;
   min-height: 100px;
   border-radius: 80px;
@@ -21,23 +21,23 @@ export const PageTitle = styled.p`
   color: hsla(323, 87%, 50%, 0.664);
 `;
 
-export const Title = styled.h1`
-  font-weight: 300;
-  font-size: 48px;
-  text-align: center;
+// export const Title = styled.h1`
+//   font-weight: 300;
+//   font-size: 48px;
+//   text-align: center;
 
-  border-radius: 30px;
-  margin-left: 20px;
-  padding-top: 5px;
-  font-size: 20px;
-  font-weight: 500;
-  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
-  background-color: hsla(323, 87%, 50%, 0.664);
-  border: 1px solid #111;
-  justify-content: center;
+//   border-radius: 30px;
+//   margin-left: 20px;
+//   padding-top: 5px;
+//   font-size: 20px;
+//   font-weight: 500;
+//   transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+//   background-color: hsla(323, 87%, 50%, 0.664);
+//   border: 1px solid #111;
+//   justify-content: center;
 
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-`;
+//   cursor: pointer;
+//   text-decoration: none;
+//   color: black;
+//   text-align: center;
+// `;

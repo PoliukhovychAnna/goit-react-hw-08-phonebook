@@ -3,13 +3,14 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useEffect, lazy } from 'react';
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import { Layout } from 'components/Layout/Layout';
 import { PrivateRoute } from 'components/PrivateRoute';
 import { RestrictedRoute } from 'components/RestrictedRoute';
 import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hooks/useAuth';
+import NotFound from 'pages/NotFound/NotFound';
 
 import { MainContainer } from './Styled.App';
 
@@ -55,7 +56,8 @@ export const App = () => {
             }
           />
         </Route>
-        <Route path="*" element={<Navigate to="/" />} />
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </MainContainer>
   );
