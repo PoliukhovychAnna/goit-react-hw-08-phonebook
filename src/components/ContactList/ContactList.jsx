@@ -6,8 +6,8 @@ import {
   selectIsLoading,
   selectContacts,
   selectFilteredContacts,
-} from 'redux/selectors';
-import { fetchContacts } from 'redux/operations';
+} from 'redux/contacts/selectors';
+import { fetchContacts } from 'redux/contacts/operations';
 import { Contact } from 'components/Contact/Contact';
 import { List } from './Styled.List';
 
