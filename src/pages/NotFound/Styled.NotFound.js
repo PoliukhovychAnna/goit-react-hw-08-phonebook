@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const PageTitle = styled.p`
-  margin-top: 160px;
+  margin-top: 280px;
   width: 700px;
   min-height: 70px;
   border-radius: 80px;
