@@ -4,7 +4,7 @@ const NotFound = () => {
   return (
     <Container>
       {' '}
-      <PageTitle> 'Sorry, there is nothing here for your guery'</PageTitle>{' '}
+      <PageTitle> 'Sorry, this page doesn't exist'</PageTitle>{' '}
     </Container>
   );
 };
