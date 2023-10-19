@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+// import { useEffect } from 'react';
+// import { useDispatch } from 'react-redux';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { ContactList } from 'components/ContactList/ContactList';
-import { fetchContacts } from 'redux/contacts/operations';
+// import { fetchContacts } from 'redux/contacts/operations';
 import { Filter } from 'components/Filter/Filter';
 
 import {
@@ -14,11 +14,11 @@ import {
 } from './Styled.Contacts';
 
 export default function Contacts() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(fetchContacts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchContacts());
+  // }, [dispatch]);
   return (
     <WrapperTask>
       <PhonebookContainer>
