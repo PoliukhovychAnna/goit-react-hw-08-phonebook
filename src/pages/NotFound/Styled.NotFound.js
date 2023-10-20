@@ -8,12 +8,12 @@ export const Container = styled.div`
 `;
 
 export const PageTitle = styled.p`
-  margin-top: 280px;
-  width: 700px;
-  min-height: 70px;
+  margin-top: 175px;
+  width: 900px;
+  min-height: 100px;
   border-radius: 80px;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 52px;
   text-align: center;
   padding-top: 30px;
 
